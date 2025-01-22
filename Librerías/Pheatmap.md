@@ -201,7 +201,7 @@ library(pheatmap)
 ## Cómo usar pheatmap
 
 **Creamos los datos**
-
+```R
 set.seed(8)
 m <- matrix(rnorm(200), 10, 10)
 colnames(m) <- paste("Col.", 1:10)
@@ -210,7 +210,7 @@ rownames(m) <- paste("Fila", 1:10)
 **Creamos el mapa de calor**
 
 pheatmap(m)
-
+```
 
 ### Normalización
 
