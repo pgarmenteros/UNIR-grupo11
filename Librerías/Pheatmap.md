@@ -207,8 +207,7 @@ m <- matrix(rnorm(200), 10, 10)
 colnames(m) <- paste("Col.", 1:10)
 rownames(m) <- paste("Fila", 1:10)
 
-**Creamos el mapa de calor**
-
+# Creamos el mapa de calor
 pheatmap(m)
 ```
 
@@ -216,25 +215,30 @@ pheatmap(m)
 
 Si los valores de la matriz no están normalizados puedes normalizar por filas ("row") o por columnas ("column") haciendo uso del argumento scale.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor con los datos normalizados
 pheatmap(m, scale = "column") 
+```
 
 ### Valores
 
 Si estableces display_numbers = TRUE se mostrarán los valores para cada celda. Tambén puedes especificar el color y el tamaño de los textos.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor con los valores en cada celda
 pheatmap(m,
          display_numbers = TRUE,
          number_color = "black", 
          fontsize_number = 8)
+```
 
 ### Número de clusters
 
 El número de clusters (grupos) se puede cambiar con kmeans_k. Si el número de clusters es pequeño puedes incrementar el tamaño de las celdas con cellheight o cellwidth.
-
-**Mapa de calor**
+```R
+# Creamos el mapa de calor con clústers y tamaño de celda cambiados
 pheatmap(m, kmeans_k = 3, cellheight = 50)
+```
 
 --- 
 
