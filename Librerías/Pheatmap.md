@@ -235,6 +235,7 @@ pheatmap(m,
 ### Número de clusters
 
 El número de clusters (grupos) se puede cambiar con kmeans_k. Si el número de clusters es pequeño puedes incrementar el tamaño de las celdas con cellheight o cellwidth.
+
 ```R
 # Creamos el mapa de calor con clústers y tamaño de celda cambiados
 pheatmap(m, kmeans_k = 3, cellheight = 50)
@@ -248,24 +249,30 @@ pheatmap(m, kmeans_k = 3, cellheight = 50)
 
 Puedes pasar un objeto hclust al argumento cluster_rows o establecerlo como FALSE para eliminar el dendrograma de las filas.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor sin dendograma en las filas
 pheatmap(m, cluster_rows = FALSE)
+```
 
 ### Eliminar el dendrograma de las columnas
 
 De manera equivalente al argumento anterior, cluster_cols controla cómo se debería crear el dendrograma de las columnas, en caso de crearse.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor sin dendograma en las columnas
 pheatmap(m, cluster_cols = FALSE)
+```
 
 ### Eliminar los dendrogramas
 
 Es posible eliminar ambos dendrogramas estableciendo cluster_cols y cluster_rows como FALSE.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor sin dendogramas ni en filas ni columnas
 pheatmap(m,
          cluster_cols = FALSE,
          cluster_rows = FALSE)
+```
 
  ---
  
@@ -275,15 +282,19 @@ pheatmap(m,
 
 El argumento border_color controla el color del borde de las celdas. El valor por defecto es "grey60".
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor cambiando el color del borde
 pheatmap(m, border_color = "black")
+```
 
 ### Paleta de colores
 
 La paleta de colores por defecto se puede cambiar pasando un vector de colores al argumento color, tal y como se muestra en el siguiente ejemplo.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor con otra paleta de color
 pheatmap(m, color = hcl.colors(50, "BluYl"))
+```
 
 ---
 
@@ -293,43 +304,49 @@ pheatmap(m, color = hcl.colors(50, "BluYl"))
 
 El número de clases en los que se divide la leyenda se puede personalizar con legend_breaks, pasando los puntos de corte como vector.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor con puntos de corte en la leyenda
 pheatmap(m, legend_breaks = c(-2, 0, 2))
+```
 
 ### Etiquetas de la leyenda
 
 Si estableces los puntos de corte también puedes pasar un vector de la misma longitud al argumento legend_labels para modificar las etiquetas.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor con las etiquetas de la leyenda modificadas
 pheatmap(m,
          legend_breaks = c(-2, 0, 2),
          legend_labels = c("Bajo", "Medio", "Alto")) 
- 
+ ```
+
 ### Eliminar la leyenda
 
 Por último, si quieres deshacerte de la leyenda establece legend = FALSE.
 
-**Mapa de calor**
+```R
+# Creamos el mapa de calor sin leyenda
 pheatmap(m, legend = FALSE)
+```
 
 ---
 
 ## Guardar el Heatmap
-
-**Guardar heatmap como imagen**
+```R
+# Guardar heatmap como imagen
 pdf("heatmap.pdf")
 pheatmap(m, annotation = annotation, annotation_colors = annotation_colors)
 dev.off()
 
-**Guardar heatmap como pdf**
+# Guardar heatmap como pdf
 pdf("heatmap.pdf")
 pheatmap(m, annotation = annotation, annotation_colors = annotation_colors)
 dev.off()
 
-**Guardar heatmap como png**
+# Guardar heatmap como png
 png("heatmap.png", width = 800, height = 600)
 pheatmap(m, annotation = annotation, annotation_colors = annotation_colors)
 dev.off()
-
+```
 
 
