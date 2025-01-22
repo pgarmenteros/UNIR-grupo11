@@ -334,7 +334,7 @@ pheatmap(m, legend = FALSE)
 ## Guardar el Heatmap
 ```R
 # Guardar heatmap como imagen
-pdf("heatmap.pdf")
+img("heatmap.img")
 pheatmap(m, annotation = annotation, annotation_colors = annotation_colors)
 dev.off()
 
