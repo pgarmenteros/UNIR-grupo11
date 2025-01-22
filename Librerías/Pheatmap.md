@@ -13,25 +13,6 @@ Los mapas de calor creados con **pheatmap** son invaluables en bioinformática y
 
 ---
 
-### Cómo instalar pheatmap  
-
-La instalación de **pheatmap** es sencilla en R. Para comenzar:  
-
-1. Abre R o RStudio.  
-2. Ejecuta el siguiente comando para instalar el paquete desde CRAN:  
-
-```R
-install.packages("pheatmap")
-```  
-
-3. Carga el paquete en tu sesión:  
-
-```R
-library(pheatmap)
-```  
-
----
-
 ### Aplicaciones de pheatmap en bioinformática  
 
 El paquete **pheatmap** es especialmente valioso en investigaciones bioinformáticas, donde los mapas de calor se utilizan frecuentemente para:  
@@ -196,5 +177,25 @@ Antes de profundizar en la creación de mapas de calor con **pheatmap**, repasem
 
 ---
 
+# Uso y personalización de pheatmap
+
+## Instalar pheatmap  
+
+La instalación de **pheatmap** es sencilla en R. Para comenzar:  
+
+1. Abre R o RStudio.  
+2. Ejecuta el siguiente comando para instalar el paquete desde CRAN:  
+
+```R
+install.packages("pheatmap")
+```  
+
+3. Carga el paquete en tu sesión:  
+
+```R
+library(pheatmap)
+```
+
+---
 
 
