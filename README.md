@@ -16,7 +16,7 @@ El trabajo ha sido dividido tal y como se señala a continuación:
 - **Adrian** - Librería **B**
 - **Daniel** - Librería **psych**
 
-## 🛠️ Flujo de Trabajo en GitHub
+## Flujo de Trabajo en GitHub
 1. **Creación del repositorio**: Se creó un repositorio en GitHub llamado **UNIR-grupo11**.
 2. **Trabajo en ramas individuales**: Cada integrante trabajó en una rama independiente con su respectiva librería.
 3. **Confirmaciones y sincronización**: Se realizaron commits y push de los cambios en cada rama.
