@@ -8,7 +8,7 @@ La librería se basa en una serie de funciones clave que operan sobre data frame
 
 ### 1. `filter()` ->  Filtra filas según condiciones
  
-``` código R
+``` r
 library(dplyr)
 
 df <- data.frame(nombre = c("Ana", "Luis", "Carlos", "Marta"),
@@ -20,66 +20,67 @@ print(df_filtrado)
 
 ```
 ### 2. `select()` -> Selecciona columnas específicas.
-Permite elefir columnas por su nombre o rango
-``` código R
+Permite elegir columnas por su nombre o rango
+``` r
 
-# Selecionar solo la columna nombre
+# Seleccionar solo la columna nombre
 df_nombres <- df %>% select(nombre)
 
 # Rangos de columnas
 df_rango <- df %>% select(edad:nombre)
+
 ```
 
 ### 3. `mutate()` → Crea o modifica columnas
 Añade nuevas columnas basadas en cálculos de las existentes.
 
-``` Código R
+``` r
 
 # Crear una nueva columna edad_doble
-
 df_modificado <- df %>% mutate(edad_doble = edad * 2)
+
 ```
 
 ### 4. `arrange()` → Ordena las filas
 Ordena los datos en orden ascendente o descendente.
 
-``` Código R
-
+``` r
 # Ordenar por edad de menor a mayor
-
 df_ordenado <- df %>% arrange(edad)
 
 # Ordenar en orden descendente
-
 df_ordenado_desc <- df %>% arrange(desc(edad))
+
 
 ```
 
 ### 5. `summarise()` → Resúmenes de datos
 Genera estadísticas como medias, sumas o conteos.
 
-``` Código R
-
+``` r
 # Ejemplo: Calcular la edad promedio
 df_resumen <- df %>% summarise(promedio_edad = mean(edad))
+
 ```
 
 ### 6. `group_by()` → Agrupamiento de datos
-Se usa junto con summarise() para calcular métricas por grupos.
+Se usa junto con `summarise()` para calcular métricas por grupos.
 
-```Código R
-
+``` r
 # Ejemplo: Promedio de edad por grupo
 df_grouped <- df %>%
   group_by(nombre) %>%
   summarise(promedio_edad = mean(edad))
+
 ```
 
 ## Operador Pipe (`%>%`)
 La librería usa el operador pipe (%>%), que permite encadenar funciones y escribir código más legible.
 ### Filtrar y ordenar en una sola línea
-```Código R
+
+``` r
 df %>%
   filter(edad > 30) %>%
   arrange(desc(edad))
+```
 
