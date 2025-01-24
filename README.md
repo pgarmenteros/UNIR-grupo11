@@ -61,3 +61,5 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
 - To-Do: lista de tareas para poder llevar un control más preciso de las tareas por hacer y las ya realizadas.
 
 # Directorios
+
+# Organización de los directorios
