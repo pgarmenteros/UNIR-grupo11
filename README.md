@@ -24,3 +24,7 @@ El trabajo ha sido dividido tal y como se señala a continuación:
 
 ## Estructura del Repositorio
 
+=======
+## Actividad grupal de "Introducción a la programación científica" - Crear un repositorio Github (Enero 2025).
+
+# Directorios
