@@ -1,5 +1,16 @@
 # UNIR-grupo11
-Actividad grupal de "Introducción a la programación científica" - Crear un repositorio Github (Enero 2025).
+
+## Actividad grupal de "Introducción a la programación científica" - Crear un repositorio Github (Enero 2025).
+
+### Integrantes del equipo 11 lotes 7 y 10
+- Patricia García Armenteros
+- Elena Ibáñez Sánchez
+- Yasmina García Suárez
+- Claudia Saldaña Taboada
+- Adrián Alberto Castillo Domínguez
+- Daniel Oyeghe Blasco
+
+---
 
 # Proyecto de Documentación de Librerías en Markdown
 
@@ -23,8 +34,27 @@ El trabajo ha sido dividido tal y como se señala a continuación:
 4. **Fusión a `main`**: Una vez finalizado el trabajo, cada rama fue fusionada a la rama principal (`main`).
 
 ## Estructura del Repositorio
+El repositorio ha sido estructurado en una rama individual para que cada uno pueda realizar cambios independientes a la rama principal y después poder hacer un pull request para integrar estos nuevas modificaciones e integrarlas en la rama `main` después de comprobar si había algún conflicto por resolver. Las ramas que componen el repositorio son las siguientes:
 
-=======
-## Actividad grupal de "Introducción a la programación científica" - Crear un repositorio Github (Enero 2025).
+- main (default)
+- Daniel
+- Adrian
+- Claudia
+- Elena
+- Patricia
+- Yasmina
+
+Dentro de la rama `main` encontramos los siguientes directorios y archivos:
+- Libreria:
+- Librerías:
+- Resultados:
+- Scripts: contiene el script (en 3 formatos diferentes) creado para la realización de una actividad de la asignatura de "Estadística y R para Ciencias de la Salud.
+  - actividad1.Rmd
+  - actividad1.html
+  - actividad1.md
+- muestras: contiene un archivo .csv llamado "Dataset expresión genes 2.csv" en el que encontramos todos los datos necesarios para poder resolver la actividad propuesta. 
+- prueba_carpeta:
+- LICENSE: documento que especifica los términos y condiciones bajo los cuales se puede usar, modificar y redistribuir el código del repositorio.
+- README.md: documento que sirve como una introducción al proyecto y proporciona información clave para que otros usuarios comprendan su propósito, configuración y uso
 
 # Directorios
