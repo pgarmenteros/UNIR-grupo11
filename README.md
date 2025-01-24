@@ -45,16 +45,21 @@ El repositorio ha sido estructurado en una rama individual para que cada uno pue
 - Yasmina
 
 Dentro de la rama `main` encontramos los siguientes directorios y archivos:
-- Libreria:
-- Librerías:
-- Resultados:
-- Scripts: contiene el script (en 3 formatos diferentes) creado para la realización de una actividad de la asignatura de "Estadística y R para Ciencias de la Salud.
-  - actividad1.Rmd
-  - actividad1.html
-  - actividad1.md
-- muestras: contiene un archivo .csv llamado "Dataset expresión genes 2.csv" en el que encontramos todos los datos necesarios para poder resolver la actividad propuesta. 
-- prueba_carpeta:
-- LICENSE: documento que especifica los términos y condiciones bajo los cuales se puede usar, modificar y redistribuir el código del repositorio.
-- README.md: documento que sirve como una introducción al proyecto y proporciona información clave para que otros usuarios comprendan su propósito, configuración y uso
+- **Libreria:**
+- **Librerías:**
+- **Resultados:**
+- **Scripts:** contiene el script (en 3 formatos diferentes) creado para la realización de una actividad de la asignatura de "Estadística y R para Ciencias de la Salud.
+  - *actividad1.Rmd*
+  - *actividad1.html*
+  - *actividad1.md*
+- **muestras:** contiene dos archivos:
+  - *"Dataset expresión genes 2.csv":* archivo .csv en el que encontramos todos los datos necesarios para poder resolver la actividad propuesta.
+  - *"Información de interés del dataset.md":* archivo .md que contiene información relevante sobre los datos del archivo "Dataset expresión genes 2.csv".
+- **prueba_carpeta:**
+- **LICENSE:** documento que especifica los términos y condiciones bajo los cuales se puede usar, modificar y redistribuir el código del repositorio.
+- **README.md:** documento que sirve como una introducción al proyecto y proporciona información clave para que otros usuarios comprendan su propósito, configuración y uso.
+- **To-Do:** lista de tareas para poder llevar un control más preciso de las tareas por hacer y las ya realizadas.
 
 # Directorios
+
+# Organización de los directorios
