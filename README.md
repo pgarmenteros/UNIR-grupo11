@@ -23,7 +23,7 @@ El trabajo ha sido dividido tal y como se señala a continuación:
 - **Patricia** - Librería **pheatmap**
 - **Elena** - Librería **Dplyr**
 - **Yasmina** - Librería **conflicted**
-- **Claudia** - Librería **A**
+- **Claudia** - Librería **Ggplot2**
 - **Adrian** - Librería **B**
 - **Daniel** - Librería **psych**
 
