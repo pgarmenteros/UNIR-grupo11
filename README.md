@@ -24,7 +24,7 @@ El trabajo ha sido dividido tal y como se señala a continuación:
 - **Elena** - Librería **Dplyr**
 - **Yasmina** - Librería **conflicted**
 - **Claudia** - Librería **Ggplot2**
-- **Adrian** - Librería **Tidyr**
+- **Adrian** - Librería **[Tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/Tidyr.md)**
 - **Daniel** - Librería **psych**
 
 ## Flujo de Trabajo en GitHub
