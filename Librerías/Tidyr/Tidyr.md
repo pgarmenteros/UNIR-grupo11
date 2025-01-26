@@ -142,6 +142,10 @@ install.packages("tidyverse")
 - **Análisis exploratorio de datos (EDA):** Reestructurar y limpiar datos para facilitar su exploración.
 - **Generación de reportes:** Formatear datos para visualización y presentación.
 
+## Referencias
+![Cheat Sheet](https://raw.githubusercontent.com/pgarmenteros/UNIR-grupo11/Adrian/Librer%C3%ADas/Tidyr/tidyr_diagrama.png)
+[Repositorio Tidyr](https://github.com/tidyverse/tidyr)
+
 ## Conclusión
 
 `tidyr` es una herramienta poderosa para la limpieza y reestructuración de datos en R. Su integración con el resto del ecosistema `tidyverse` la hace indispensable para analistas y científicos de datos que trabajan con datos tabulares de forma eficiente y reproducible.
