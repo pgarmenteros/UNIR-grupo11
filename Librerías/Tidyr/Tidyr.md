@@ -3,12 +3,11 @@
 `tidyr` es una librería de R diseñada para ayudar a limpiar, organizar y transformar datos de manera estructurada y ordenada. Forma parte del ecosistema de paquetes `tidyverse`, que ofrece herramientas para la manipulación de datos de forma intuitiva y eficiente.
 
 <a href="https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/cheat%20sheet%20tidyr.pdf">
-  <img src="https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/Miniatura%20cheat%20sheet%20tidyr1.png" alt="Vista previa 1" width="300">
+  <img src="https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/Miniatura%20cheat%20sheet%20tidyr1.png" alt="Vista previa 1" width="400">
 </a>
 <a href="https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/cheat%20sheet%20tidyr.pdf">
-  <img src="https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/Miniatura%20cheat%20sheet%20tidyr2.png" alt="Vista previa 2" width="300">
+  <img src="https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/Miniatura%20cheat%20sheet%20tidyr2.png" alt="Vista previa 2" width="400">
 </a>
-
 
 ## Características principales
 
@@ -150,12 +149,12 @@ install.packages("tidyverse")
 - **Análisis exploratorio de datos (EDA):** Reestructurar y limpiar datos para facilitar su exploración.
 - **Generación de reportes:** Formatear datos para visualización y presentación.
 
-## Referencias
-- [Cheat sheet de tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/tidyr.pdf)
-- [Repositorio github de tidyr](https://github.com/tidyverse/tidyr)
-
 ## Conclusión
 
 `tidyr` es una herramienta poderosa para la limpieza y reestructuración de datos en R. Su integración con el resto del ecosistema `tidyverse` la hace indispensable para analistas y científicos de datos que trabajan con datos tabulares de forma eficiente y reproducible.
 
+## Referencias
+
+- [Cheat sheet de tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/tidyr.pdf)
+- [Repositorio github de tidyr](https://github.com/tidyverse/tidyr)
 
