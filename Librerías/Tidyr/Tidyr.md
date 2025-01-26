@@ -2,6 +2,8 @@
 
 `tidyr` es una librería de R diseñada para ayudar a limpiar, organizar y transformar datos de manera estructurada y ordenada. Forma parte del ecosistema de paquetes `tidyverse`, que ofrece herramientas para la manipulación de datos de forma intuitiva y eficiente.
 
+<embed src="https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/tidyr.pdf" width="100%" height="600px" type="application/pdf">
+
 ## Características principales
 
 - **Conversión de datos desordenados a formatos "tidy"** (ordenados y estructurados).
@@ -143,8 +145,8 @@ install.packages("tidyverse")
 - **Generación de reportes:** Formatear datos para visualización y presentación.
 
 ## Referencias
-- ![Cheat Sheet](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/tidyr.pdf)
-- [Repositorio Tidyr](https://github.com/tidyverse/tidyr)
+- [Cheat Sheet de tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/tidyr.pdf)
+- [Repositorio github de tidyr](https://github.com/tidyverse/tidyr)
 
 ## Conclusión
 
