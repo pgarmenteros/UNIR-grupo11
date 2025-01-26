@@ -1,4 +1,4 @@
-##Resultados 
+# Resultados 
 
 
 - **¿Qué interpretación sacas de la distribución de la expresión de los genes cuando los comparamos por tipo de tratamiento?**
