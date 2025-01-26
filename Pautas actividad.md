@@ -1,9 +1,9 @@
-#Actividad. Representación gráfica de datos y análisis de resultados
+# Actividad. Representación gráfica de datos y análisis de resultados
 
-##Objetivos 
+## Objetivos 
 En esta actividad, aplicarás los conceptos aprendidos sobre visualización de datos biológicos y análisis estadístico. Utilizarás un dataset que contiene información de la expresión de 46 genes en 65 pacientes, cada uno con distintos tipos de tratamiento y características tumorales. El objetivo principal es que seas capaz de interpretar los datos mediante la generación de gráficos adecuados y la respuesta a preguntas específicas que se detallan más adelante.
 
-##Pautas de elaboración
+## Pautas de elaboración
 
 Esta actividad consistirá en dos partes principales relacionado con datos de diferentes genes: 1) elaboración de código para que generes gráficos y los reflejes en el documento HTML; y 2) breve interpretación de los gráficos del dataset en el documento HTML.
 
@@ -15,7 +15,7 @@ Tras importarlo, deberás responder a las siguientes cuestiones, teniendo en cue
 
 ---
 
-##1. Teniendo en cuenta los siguientes genes: AQ_ALOX5, AQ_CD274, AQ_CHKA, AQ_CSF2, AQ_FOXO3, AQ_IL6, AQ_LDHA, AQ_LIF, AQ_MAPK1, AQ_NOS2, AQ_IFNG, AQ_PDCD1, AQ_PPARG, AQ_TGFB1, AQ_TNF:
+## 1. Teniendo en cuenta los siguientes genes: AQ_ALOX5, AQ_CD274, AQ_CHKA, AQ_CSF2, AQ_FOXO3, AQ_IL6, AQ_LDHA, AQ_LIF, AQ_MAPK1, AQ_NOS2, AQ_IFNG, AQ_PDCD1, AQ_PPARG, AQ_TGFB1, AQ_TNF:
 - Para responder este ejercicio, apóyate en un diagrama de cajas en el que visualices por cada expresión de gen 2 cajas: 1 para trata y otro para tratB.
 - ¿Qué interpretación sacas de la distribución de la expresión de los genes cuando los comparamos por tipo de tratamiento? (mínimo 150 palabras de extensión).
 - Consejos: 
@@ -25,7 +25,7 @@ Tras importarlo, deberás responder a las siguientes cuestiones, teniendo en cue
 
 ---
 
-##2. Teniendo en cuenta los siguientes parámetros bioquímicos para toda la población: glucosa, leucocitos, linfocitos, neutrofilos, chol, hdl, hierro, igA, igE, igG, igN, ldl, pcr, transferrina, trigliceridos, cpk:
+## 2. Teniendo en cuenta los siguientes parámetros bioquímicos para toda la población: glucosa, leucocitos, linfocitos, neutrofilos, chol, hdl, hierro, igA, igE, igG, igN, ldl, pcr, transferrina, trigliceridos, cpk:
 - Para responder este ejercicio, apóyate en un histograma en el que se visualice la frecuencia de cada variable utilizando aproximadamente 30 bins (a mayor bins, mayor número de barras).
 - ¿Qué interpretación sacas de la distribución de los datos de las variables bioquímicas en toda la población? (mínimo 100 palabras de extensión).
 - ¿Crees que sigue una distribución normal o simétrica en la que se visualiza una distribución parecida a una campana de Gauss? (mínimo 100 palabras de extensión).
@@ -33,7 +33,7 @@ Tras importarlo, deberás responder a las siguientes cuestiones, teniendo en cue
 
 ---
 
-##3. Mapea todos los valores de expresión de genes para poder visualizar posibles patrones entre los datos de los pacientes:
+## 3. Mapea todos los valores de expresión de genes para poder visualizar posibles patrones entre los datos de los pacientes:
 - Para responder esta pregunta, apóyate en un heatmap en el que visualices los datos crudos de todas las variables AQ (expresión de genes). 
 - ¿Hay algún tipo de patrón de pacientes que tiene la expresión de genes similar o diferenciada? (mínimo 150 palabras de extensión).
 - ¿Hay grupos de genes con patrones de expresión similares o diferenciadas? 
@@ -46,7 +46,7 @@ Tras importarlo, deberás responder a las siguientes cuestiones, teniendo en cue
 
 ---
 
-##Extensión y formato 
+## Extensión y formato 
 Para la resolución de esta actividad, deberás entregar dos archivos:
 - Un único fichero R Markdown (.Rmd) con todo el código y texto Markdown que hayas generado. No existe un límite de extensión para este fichero.
 - Un fichero HTML generado a partir de dicho archivo R Markdown. Asegúrate de que aparecen todas las figuras, todo el texto y todos los cuadros de código R que hayas introducido en el archivo .Rmd anterior. Este fichero es el evaluable.
