@@ -155,6 +155,6 @@ install.packages("tidyverse")
 
 ## Referencias
 
-- [Cheat sheet de tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/tidyr.pdf)
+- [Cheat sheet de tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/cheat%20sheet%20tidyr.pdf)
 - [Repositorio github de tidyr](https://github.com/tidyverse/tidyr)
 
