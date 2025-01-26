@@ -24,7 +24,7 @@ El trabajo ha sido dividido tal y como se señala a continuación:
 - **Elena** - Librería **Dplyr**
 - **Yasmina** - Librería **conflicted**
 - **Claudia** - Librería **Ggplot2**
-- **Adrian** - Librería **B**
+- **Adrian** - Librería **Tidyr**
 - **Daniel** - Librería **psych**
 
 ## Flujo de Trabajo en GitHub
