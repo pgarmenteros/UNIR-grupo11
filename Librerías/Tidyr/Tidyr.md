@@ -143,7 +143,7 @@ install.packages("tidyverse")
 - **Generación de reportes:** Formatear datos para visualización y presentación.
 
 ## Referencias
-![Cheat Sheet](https://raw.githubusercontent.com/pgarmenteros/UNIR-grupo11/Adrian/Librer%C3%ADas/Tidyr/tidyr_diagrama.png)
+![Cheat Sheet](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/tidyr.pdf)
 [Repositorio Tidyr](https://github.com/tidyverse/tidyr)
 
 ## Conclusión
