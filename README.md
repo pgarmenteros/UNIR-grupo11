@@ -65,8 +65,8 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
     - *Miniatura cheat sheet tidyr2.png:* Miniatura 2 de Cheat sheet de tidyr para el markdown.
     - *cheat sheet tidyr.pdf:* Cheat sheet de tidyr.
   - **ggplot2:** contiene los siguientes archivos.
-   - *ggplot2.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libreria ggplot2.
-   - *ggplot2-cheatsheet-2.1-Spanish.pdf:* Cheat sheet de ggplot2.
+    - *ggplot2.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libreria ggplot2.
+    - *ggplot2-cheatsheet-2.1-Spanish.pdf:* Cheat sheet de ggplot2.
   - **psych:**
     - *psych.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libreria. Incluye un caso de estudio para demostrar su aplicación práctica y uso.
     - *recursos.md:* Este documento contiene las referencias web utilizadas para elaborar el contenido de *psych.md*.
