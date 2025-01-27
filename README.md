@@ -22,7 +22,7 @@ El trabajo ha sido dividido tal y como se señala a continuación:
 
 - **Patricia** - Librería **pheatmap**
 - **Elena** - Librería **Dplyr**
-- **Yasmina** - Librería **conflicted**
+- **Yasmina** - Librería **[Conflicted](https://github.com/pgarmenteros/UNIR-grupo11/tree/310132cb95a3cb6de9830f40174f6c6d9fb38c8f/Librer%C3%ADas/Conflicted)**
 - **Claudia** - Librería **Ggplot2**
 - **Adrian** - Librería **[Tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/Tidyr.md)**
 - **Daniel** - Librería **psych**
@@ -53,6 +53,9 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
     - *Pheatmap.md:* documento en formado Markdown donde se resumen las principales características y funciones del paquete de R Pheatmap para la creación y personalización de mapas de calor.
     - *pheatmap.pdf:* archivo PDF descargado desde la web de CRAN donde se detallan los argumentos de este paquete.
     - *Recursos_web.md:* documento Markdown con las referencias web utilizadas para redactar el contenido de *pheatmap.md*.
+  - **Conflicted:** directorio donde encontramos los siguientes archivos:
+    - *Conflicted.md:* documento en formato Markdown que incluye funcionalidad, aplicaciones, ventajas de su aplicación en bioinformática e información práctica resumida para instalación, uso, así como referencias empleadas del paquete de R conflicted.
+    -  *Paquete_conflicted_CRAN.pdf:* archivo PDF de la web CRAN sobre el paquete.
   - **psych:**
     - *psych.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libnreria. Incluye un caso de estudio para demostrar su aplicación práctica y uso.
     - *recursos.md:* Este documento contiene las referencias web utilizadas para elaborar el contenido de *psych.md*.
@@ -71,7 +74,3 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
 - **Pautas actividad.md**: archivo con extensión .md en el que se detalla la actividad propuesta, con los objetivos, pautas de elaboración, enunciados, consejos y extensión y formato.
   
 ---
-
-# Directorios
-
-# Organización de los directorios
