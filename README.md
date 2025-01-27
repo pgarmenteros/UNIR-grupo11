@@ -56,6 +56,9 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
   - **Conflicted:** directorio donde encontramos los siguientes archivos:
     - *Conflicted.md:* documento en formato Markdown que incluye funcionalidad, aplicaciones, ventajas de su aplicación en bioinformática e información práctica resumida para instalación, uso, así como referencias empleadas del paquete de R conflicted.
     -  *Paquete_conflicted_CRAN.pdf:* archivo PDF de la web CRAN sobre el paquete.
+  - **dplyr:** encontramos los siguientes archivos:
+    - *Dplyr.md*: documento con formato markdown donde se resumen las principales características y funciones del paquete R de dplyr.
+    - *Dplyr.pdf*: recursos web descargados de CRAN donde se detalla el paquete dplyr.
   - **psych:**
     - *psych.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libnreria. Incluye un caso de estudio para demostrar su aplicación práctica y uso.
     - *recursos.md:* Este documento contiene las referencias web utilizadas para elaborar el contenido de *psych.md*.
