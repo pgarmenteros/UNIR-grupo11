@@ -59,7 +59,7 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
   - **dplyr:** encontramos los siguientes archivos:
     - *Dplyr.md*: documento con formato markdown donde se resumen las principales características y funciones del paquete R de dplyr.
     - *Dplyr.pdf*: recursos web descargados de CRAN donde se detalla el paquete dplyr.
-  - **tydir:** contiene los siguientes archivos.
+  - **tidyr:** contiene los siguientes archivos.
     - *Tidyr.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libreria tidyr.
     - *Miniatura cheat sheet tidyr1.png:* Miniatura 1 de Cheat sheet de tidyr para el markdown.
     - *Miniatura cheat sheet tidyr2.png:* Miniatura 2 de Cheat sheet de tidyr para el markdown.
