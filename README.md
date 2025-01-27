@@ -47,7 +47,7 @@ El repositorio ha sido estructurado en una rama individual para que cada uno pue
 - Yasmina
 
 Dentro de la rama `main` encontramos los siguientes directorios y archivos:
-- **Libreria:**
+Dentro de la rama `main` encontramos los siguientes directorios y archivos:
 - **Librerías:** almacena una subcarpeta para cada librería:
   - **Pheatmap:** encontramos los siguientes archivos dentro de esta carpeta:
     - *Pheatmap.md:* documento en formado Markdown donde se resumen las principales características y funciones del paquete de R Pheatmap para la creación y personalización de mapas de calor.
@@ -59,8 +59,16 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
   - **dplyr:** encontramos los siguientes archivos:
     - *Dplyr.md*: documento con formato markdown donde se resumen las principales características y funciones del paquete R de dplyr.
     - *Dplyr.pdf*: recursos web descargados de CRAN donde se detalla el paquete dplyr.
+  - **tydir:** contiene los siguientes archivos.
+    - *Tidyr.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libreria tidyr.
+    - *Miniatura cheat sheet tidyr1.png:* Miniatura 1 de Cheat sheet de tidyr para el markdown.
+    - *Miniatura cheat sheet tidyr2.png:* Miniatura 2 de Cheat sheet de tidyr para el markdown.
+    - *cheat sheet tidyr.pdf:* Cheat sheet de tidyr.
+  - **ggplot2:** contiene los siguientes archivos.
+   - *ggplot2.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libreria ggplot2.
+   - *ggplot2-cheatsheet-2.1-Spanish.pdf:* Cheat sheet de ggplot2.
   - **psych:**
-    - *psych.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libnreria. Incluye un caso de estudio para demostrar su aplicación práctica y uso.
+    - *psych.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libreria. Incluye un caso de estudio para demostrar su aplicación práctica y uso.
     - *recursos.md:* Este documento contiene las referencias web utilizadas para elaborar el contenido de *psych.md*.
     - *psych.pdf:* Archivo PDF descargado desde el sitio web de CRAN, donde se detalla exhaustivamente la biblioteca. Este documento proporciona información esencial sobre las funciones, la implementación y los usos recomendados de la biblioteca.  
 - **Muestras:** contiene dos archivos:
