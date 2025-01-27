@@ -125,6 +125,6 @@ dplyr::mutate(data, logFC = log2(fold_change))
 - **Código reproducible**: Hacer que las elecciones de funciones sean claras ayuda a mantener la reproducibilidad, especialmente en entornos complejos con múltiples dependencias.
 
 ## Referencias
-https://github.com/r-lib/conflicted/tree/main
-https://cran.r-project.org/web/packages/conflicted/conflicted.pdf
-
+- [Repositorio en github de conflicted](https://github.com/r-lib/conflicted/tree/main)
+- [Conflicted en CRAN](https://cran.r-project.org/web/packages/conflicted/conflicted.pdf)
+- [Conflicted en R](https://conflicted.r-lib.org/)
