@@ -2,7 +2,7 @@
 ## Introducción
 El paquete conflicted en R es una herramienta diseñada para ayudarte a manejar conflictos entre funciones con el mismo nombre que provienen de diferentes paquetes. En R, cuando cargas varios paquetes en un entorno, es común que dos o más de ellos contengan funciones con nombres idénticos, lo que puede llevar a resultados inesperados si no se tiene cuidado.
 
-### Funcionalidad principal
+## Funcionalidad principal
 
 Cuando hay un conflicto de nombres de funciones, R por defecto usa la función del último paquete cargado (el que aparece más arriba en la jerarquía de búsqueda). Sin embargo, esto puede ser confuso y llevar a errores. conflicted obliga a que los conflictos sean explícitos y que tú elijas qué función usar.
 
@@ -38,7 +38,7 @@ dplyr::filter(data, condition)
 
 ---
 
-### Aplicaciones de conflicted en bioinformática
+## Aplicaciones de conflicted en bioinformática
 
 El paquete **conflicted** puede ser especialmente útil en bioinformática porque esta disciplina a menudo implica trabajar con múltiples paquetes que pueden tener funciones con nombres similares o idénticos. Esto ocurre, por ejemplo, al usar herramientas populares como **dplyr**, **tidyr**, **Bioconductor**, o paquetes específicos para análisis genómico, proteómico o transcriptómico. Aquí hay algunas aplicaciones concretas en bioinformática:
 
@@ -123,6 +123,29 @@ dplyr::mutate(data, logFC = log2(fold_change))
 - **Evitar errores críticos**: En análisis biológicos, usar la función equivocada puede cambiar los resultados y llevar a conclusiones incorrectas.
 - **Mejor colaboración**: Cuando trabajas en equipos, el código explícito es más fácil de entender y depurar.
 - **Código reproducible**: Hacer que las elecciones de funciones sean claras ayuda a mantener la reproducibilidad, especialmente en entornos complejos con múltiples dependencias.
+
+---
+
+## Instalación
+# install.packages("pak")
+pak::pak("r-lib/conflicted")
+
+## Utilización
+Para emplearlo, sólo es necesario cargarlo.
+library(conflicted)
+library(dplyr)
+
+filter(mtcars, cyl == 8)
+#> Error:
+#> ! [conflicted] filter found in 2 packages.
+#> Either pick the one you want with `::`:
+#> • dplyr::filter
+#> • stats::filter
+#> Or declare a preference with `conflicts_prefer()`:
+#> • `conflicts_prefer(dplyr::filter)`
+#> • `conflicts_prefer(stats::filter)`
+
+---
 
 ## Referencias
 - [Repositorio en github de conflicted](https://github.com/r-lib/conflicted/tree/main)
