@@ -60,17 +60,17 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
     - *psych.md:* Este documento es un resumen en formato Markdown que detalla las características principales y las funciones de la libnreria. Incluye un caso de estudio para demostrar su aplicación práctica y uso.
     - *recursos.md:* Este documento contiene las referencias web utilizadas para elaborar el contenido de *psych.md*.
     - *psych.pdf:* Archivo PDF descargado desde el sitio web de CRAN, donde se detalla exhaustivamente la biblioteca. Este documento proporciona información esencial sobre las funciones, la implementación y los usos recomendados de la biblioteca.  
+- **Muestras:** contiene dos archivos:
+  - *Dataset expresión genes 2.csv:* archivo .csv en el que encontramos todos los datos necesarios para poder resolver la actividad propuesta.
+  - *Información de interés del dataset.md:* archivo .md que contiene información relevante sobre los datos del archivo "Dataset expresión genes 2.csv".
 - **Resultados:** contiene el archivo *Resultados.md* con las respuestas a las preguntas planteadas en el archivo *Pautas actividad.md*.
 - **Scripts:** contiene el script (en 3 formatos diferentes) creado para la realización de una actividad de la asignatura de "Estadística y R para Ciencias de la Salud.
   - *actividad1.Rmd*
   - *actividad1.html*
   - *actividad1.md*
-- **Muestras:** contiene dos archivos:
-  - *Dataset expresión genes 2.csv:* archivo .csv en el que encontramos todos los datos necesarios para poder resolver la actividad propuesta.
-  - *Información de interés del dataset.md:* archivo .md que contiene información relevante sobre los datos del archivo "Dataset expresión genes 2.csv".
 - **LICENSE:** documento que especifica los términos y condiciones bajo los cuales se puede usar, modificar y redistribuir el código del repositorio.
+- **Pautas actividad.md**: archivo con extensión .md en el que se detalla la actividad propuesta, con los objetivos, pautas de elaboración, enunciados, consejos y extensión y formato.
 - **README.md:** documento que sirve como una introducción al proyecto y proporciona información clave para que otros usuarios comprendan su propósito, configuración y uso.
 - **To-Do:** lista de tareas para poder llevar un control más preciso de las tareas por hacer y las ya realizadas.
-- **Pautas actividad.md**: archivo con extensión .md en el que se detalla la actividad propuesta, con los objetivos, pautas de elaboración, enunciados, consejos y extensión y formato.
   
 ---
