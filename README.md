@@ -21,7 +21,7 @@ El objetivo de este proyecto es documentar el uso de diversas librerías en un a
 El trabajo ha sido dividido tal y como se señala a continuación:
 
 - **Patricia** - Librería **[pheatmap](https://github.com/pgarmenteros/UNIR-grupo11/edit/main/README.md#:~:text=Pheatmap-,Pheatmap,-.md)**
-- **Elena** - Librería **[Dplyr](**https://github.com/pgarmenteros/UNIR-grupo11/edit/main/README.md#:~:text=Dplyr-,Dplyr,-.md)**
+- **Elena** - Librería **[Dplyr](https://github.com/pgarmenteros/UNIR-grupo11/edit/main/README.md#:~:text=Dplyr-,Dplyr,-.md)**
 - **Yasmina** - Librería **[Conflicted](https://github.com/pgarmenteros/UNIR-grupo11/tree/310132cb95a3cb6de9830f40174f6c6d9fb38c8f/Librer%C3%ADas/Conflicted)**
 - **Claudia** - Librería **Ggplot2**
 - **Adrian** - Librería **[Tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/Tidyr.md)**
