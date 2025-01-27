@@ -65,7 +65,7 @@ Dentro de la rama `main` encontramos los siguientes directorios y archivos:
   - *actividad1.Rmd*
   - *actividad1.html*
   - *actividad1.md*
-- **muestras:** contiene dos archivos:
+- **Muestras:** contiene dos archivos:
   - *Dataset expresión genes 2.csv:* archivo .csv en el que encontramos todos los datos necesarios para poder resolver la actividad propuesta.
   - *Información de interés del dataset.md:* archivo .md que contiene información relevante sobre los datos del archivo "Dataset expresión genes 2.csv".
 - **LICENSE:** documento que especifica los términos y condiciones bajo los cuales se puede usar, modificar y redistribuir el código del repositorio.
