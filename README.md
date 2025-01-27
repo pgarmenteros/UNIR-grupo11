@@ -20,12 +20,12 @@ El objetivo de este proyecto es documentar el uso de diversas librerías en un a
 ##  Integrantes y Librerías Asignadas
 El trabajo ha sido dividido tal y como se señala a continuación:
 
-- **Patricia** - Librería **pheatmap**
-- **Elena** - Librería **Dplyr**
+- **Patricia** - Librería **[pheatmap](https://github.com/pgarmenteros/UNIR-grupo11/edit/main/README.md#:~:text=Pheatmap-,Pheatmap,-.md)**
+- **Elena** - Librería **[Dplyr](**https://github.com/pgarmenteros/UNIR-grupo11/edit/main/README.md#:~:text=Dplyr-,Dplyr,-.md)**
 - **Yasmina** - Librería **[Conflicted](https://github.com/pgarmenteros/UNIR-grupo11/tree/310132cb95a3cb6de9830f40174f6c6d9fb38c8f/Librer%C3%ADas/Conflicted)**
 - **Claudia** - Librería **Ggplot2**
 - **Adrian** - Librería **[Tidyr](https://github.com/pgarmenteros/UNIR-grupo11/blob/Adrian/Librer%C3%ADas/Tidyr/Tidyr.md)**
-- **Daniel** - Librería **psych**
+- **Daniel** - Librería **[psych](https://github.com/pgarmenteros/UNIR-grupo11/edit/main/README.md#:~:text=documentaci%C3%B3n-,psych,-.md)**
 
 ## Flujo de Trabajo en GitHub
 1. **Creación del repositorio**: Se creó un repositorio en GitHub llamado **UNIR-grupo11**.
